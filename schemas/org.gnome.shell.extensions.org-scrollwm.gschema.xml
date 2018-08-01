@@ -4,85 +4,74 @@
 
   <schema id="org.gnome.Shell.Extensions.PaperWM.Keybindings"
           path="/org/gnome/shell/extensions/paperwm/keybindings/">
-
     <key type="as" name="new-window">
-      <default><![CDATA[['<Super>Return', '<Super>n']]]></default>
-      <summary>Open new window</summary>
+        <default><![CDATA[['<Super>n']]]></default>
+        <summary>Open new window</summary>
     </key>
-
     <key type="as" name="live-alt-tab">
-      <default><![CDATA[['<Super>Tab']]]></default>
-      <summary>Switch to previously active window</summary>
+        <default><![CDATA[['<Super>Tab']]]></default>
+        <summary>Switch to previously active window</summary>
     </key>
     <key type="as" name="live-alt-tab-backward">
-      <default><![CDATA[['<Super><Shift>Tab']]]></default>
-      <summary>Switch to previously active window, backward order</summary>
+        <default><![CDATA[['<Super><Shift>Tab']]]></default>
+        <summary>Switch to previously active window, backward order</summary>
     </key>
-
     <key type="as" name="previous-workspace">
-      <default><![CDATA[['<Super>Above_Tab', '<Super>Page_Down']]]></default>
-      <summary>Switch to previously active workspace</summary>
+        <default><![CDATA[['<Super>Above_Tab>', '<Super>Down']]]></default>
+        <summary>Switch to previously active workspace</summary>
     </key>
     <key type="as" name="previous-workspace-backward">
-      <default><![CDATA[['<Super><Shift>Above_Tab',  '<Super>Page_Up']]]></default>
-      <summary>Switch to the previously active workspace, backward order</summary>
+        <default><![CDATA[['<Super><Shift>Above_Tab', '<Super>Up']]]></default>
+        <summary>Switch to the previously active workspace, backward order</summary>
     </key>
-
     <key type="as" name="move-previous-workspace">
-      <default><![CDATA[['<Super><Ctrl>Above_Tab', '<Super><Ctrl>Page_Down']]]></default>
-      <summary>Move the active window to the previously active workspace</summary>
+        <default><![CDATA[['<Super><Shift>Down']]]></default>
+        <summary>Move the active window to the previously active workspace</summary>
     </key>
     <key type="as" name="move-previous-workspace-backward">
-      <default><![CDATA[['<Super><Shift><Ctrl>Above_Tab', '<Super><Ctrl>Page_Up']]]></default>
-      <summary>Move the active window to the previously active workspace, backward order</summary>
+        <default><![CDATA[['<Super><Shift>Up']]]></default>
+        <summary>Move the active window to the previously active workspace, backward order</summary>
     </key>
-
     <key type="as" name="toggle-scratch-window">
       <default><![CDATA[['<Super>Escape']]]></default>
       <summary>Toggle the most recent scratch window</summary>
     </key>
-
     <key type="as" name="toggle-scratch-layer">
         <default><![CDATA[['<Super><Shift>Escape']]]></default>
         <summary>Toggles the floating scratch layer</summary>
     </key>
-
     <key type="as" name="toggle-scratch">
         <default><![CDATA[['<Super><Ctrl>Escape']]]></default>
         <summary>Attach/detach the active window into the scratch layer</summary>
     </key>
-
     <key type="as" name="take-window">
         <default><![CDATA[['<Super>t']]]></default>
         <summary>Take the window, dropping it when finished navigating</summary>
     </key>
-
     <key type="as" name="switch-next">
-      <default><![CDATA[['<Super>period']]]></default>
-      <summary>Switch to the next window</summary>
+        <default><![CDATA[['<Super>period']]]></default>
+        <summary>Switch to the next window</summary>
     </key>
     <key type="as" name="switch-previous">
-      <default><![CDATA[['<Super>comma']]]></default>
-      <summary>Switch to the previous window</summary>
+        <default><![CDATA[['<Super>comma']]]></default>
+        <summary>Switch to the previous window</summary>
     </key>
-
     <key type="as" name="switch-right">
-        <default><![CDATA[['<Super>Right']]]></default>
+        <default><![CDATA[['<Super>l']]]></default>
         <summary>Switch to the right window</summary>
     </key>
     <key type="as" name="switch-left">
-        <default><![CDATA[['<Super>Left']]]></default>
+        <default><![CDATA[['<Super>h']]]></default>
         <summary>Switch to the left window</summary>
     </key>
     <key type="as" name="switch-up">
-        <default><![CDATA[['<Super>Up']]]></default>
+        <default><![CDATA[['<Super>k']]]></default>
         <summary>Switch to the above window</summary>
     </key>
     <key type="as" name="switch-down">
-        <default><![CDATA[['<Super>Down']]]></default>
+        <default><![CDATA[['<Super>j']]]></default>
         <summary>Switch to the below window</summary>
     </key>
-
     <key type="as" name="switch-first">
         <default><![CDATA[['<Super>Home']]]></default>
         <summary>Switch to the first window</summary>
@@ -91,24 +80,22 @@
         <default><![CDATA[['<Super>End']]]></default>
         <summary>Switch to the last window</summary>
     </key>
-
     <key type="as" name="move-right">
-      <default><![CDATA[['<Super><Ctrl>period', '<Super><Shift>period', '<Super><Ctrl>Right']]]></default>
-      <summary>Move the active window to the right</summary>
+        <default><![CDATA[['<Super><Shift>period', '<Super><Shift>l']]]></default>
+        <summary>Move the active window to the right</summary>
     </key>
     <key type="as" name="move-left">
-      <default><![CDATA[['<Super><Ctrl>comma', '<Super><Shift>comma', '<Super><Ctrl>Left']]]></default>
-      <summary>Move the active window to the left</summary>
+        <default><![CDATA[['<Super><Shift>comma', '<Super><Shift>h']]]></default>
+        <summary>Move the active window to the left</summary>
     </key>
     <key type="as" name="move-up">
-        <default><![CDATA[['<Super><Ctrl>Up']]]></default>
+        <default><![CDATA[['<Super><Shift>k']]]></default>
         <summary>Move the active window up</summary>
     </key>
     <key type="as" name="move-down">
-        <default><![CDATA[['<Super><Ctrl>Down']]]></default>
+        <default><![CDATA[['<Super><Shift>j']]]></default>
         <summary>Move the active window down</summary>
     </key>
-
     <key type="as" name="slurp-in">
         <default><![CDATA[['<Super>i']]]></default>
         <summary>Consume the window to right into the active column</summary>
@@ -117,39 +104,31 @@
         <default><![CDATA[['<Super>o']]]></default>
         <summary>Expel the bottom window into it's own column</summary>
     </key>
-
     <key type="as" name="cycle-width">
-      <default><![CDATA[['<Super>r']]]></default>
-      <summary>Cycle through useful window widths</summary>
+        <default><![CDATA[['<Super>r']]]></default>
+        <summary>Cycle through useful window widths</summary>
     </key>
-
     <key type="as" name="cycle-height">
         <default><![CDATA[['<Super><Shift>r']]]></default>
         <summary>Cycle through useful window heights</summary>
     </key>
-
     <key type="as" name="center-horizontally">
-      <default><![CDATA[['<Super>c']]]></default>
-      <summary>Center window horizontally</summary>
+        <default><![CDATA[['<Super>u']]]></default>
+        <summary>Center window horizontally</summary>
     </key>
-
     <key type="as" name="toggle-maximize-width">
-      <default><![CDATA[['<Super>f']]]></default>
-      <summary>Maximize the width of the active window</summary>
+        <default><![CDATA[['<Super>f']]]></default>
+        <summary>Maximize the width of the active window</summary>
     </key>
-
     <key type="as" name="paper-toggle-fullscreen">
-      <default><![CDATA[['<Super><shift>f']]]></default>
-      <summary>Toggle fullscreen</summary>
+        <default><![CDATA[['<Super><shift>f']]]></default>
+        <summary>Toggle fullscreen</summary>
     </key>
 
     <key type="as" name="develop-set-globals">
-      <default><![CDATA[['<Super>Insert']]]></default>
-      <summary>
-        Develop: set various global js variables. Eg. `metaWindow` to the active window
-      </summary>
+        <default><![CDATA[['<Super>Insert']]]></default>
+        <summary>Develop: set various global js variables. Eg. `metaWindow` to the active window</summary>
     </key>
-
     <key type="as" name="close-window">
       <default><![CDATA[['<Super>BackSpace']]]></default>
       <summary>Close the active window</summary>
@@ -190,24 +169,24 @@
   <schema id="org.gnome.Shell.Extensions.PaperWM" path="/org/gnome/shell/extensions/paperwm/">
 
     <key type="b" name="has-installed-config-template">
-      <default>false</default>
-      <summary>Have we installed the user.js template in ~/.config/paperwm ?</summary>
+        <default>false</default>
+        <summary>Have we installed the user.js template in ~/.config/paperwm ?</summary>
     </key>
 
     <!-- Settings -->
     <key type="i" name="horizontal-margin">
-      <default>20</default>
-      <summary>Minimum margin from windows left and right edge</summary>
+        <default>20</default>
+        <summary>Minimum margin from windows left and right edge</summary>
     </key>
 
     <key type="i" name="vertical-margin">
-      <default>5</default>
-      <summary>Minimum margin from windows top and bottom edge</summary>
+        <default>5</default>
+        <summary>Minimum margin from windows top and bottom edge</summary>
     </key>
 
     <key type="i" name="window-gap">
-      <default>10</default>
-      <summary>Minimum gap between windows</summary>
+        <default>10</default>
+        <summary>Minimum gap between windows</summary>
     </key>
 
     <key type="b" name="override-hot-corner">
